@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>The Traveling Salesman Project</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="title">
+<h1><center>The Traveling Salesman Problem</center></h1>
+<h3><center>By, Charles Papandreou</center></h3>
+</div>
+<div id="spacer">
+<center>
+Number of Dots:<br>
+<input type="text" id="numDots"><br>
+<button onclick="initPoints()">Create Dots</button>
+</center>
+</div>
+<canvas id="canvas"></canvas>
+<div id="divider">
+<button type="button" onclick="smallestIncrease()">Smallest Increase</button>
+</div>
+<canvas id="canvas2"></canvas>
+<div id="divider2">
+<button type="button" onclick="nearestNeighbor()">Nearest Neighbor</button>
+</div>
+<canvas id="canvas3"></canvas>
+<div id="divider3">
+<button type="button" onclick="greedy()">Greedy</button>
+</div>
+<script src="TravelingSalesman.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+#title {
+	border-style:solid;
+	background-color:#aaaaaa
+}
+
+#spacer {
+	height:20
+}
+
+#divider {
+	height:50
+}
+
+#divider2 {
+	height:50
+}
+
+#divider3 {
+	height:50
+}
+
+#canvas {
+	width:300;
+	height:150;
+	border-width:1px;
+	border-style:solid;
+	border-color:#000000;
+}
+
+#canvas2 {
+	width:300;
+	height:150;
+	border-width:1px;
+	border-style:solid;
+	border-color:#000000;
+}
+
+#canvas3 {
+	width:300;
+	height:150;
+	border-width:1px;
+	border-style:solid;
+	border-color:#000000;
+}
